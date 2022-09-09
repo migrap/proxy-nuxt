@@ -1,0 +1,22 @@
+
+###
+# @name proxy
+
+GET http://localhost:3000/image
+
+###
+# @name proxy
+
+GET http://localhost:4280/image
+
+
+
+###
+# @name users
+
+GET http://localhost:3000/users
+
+###
+# @name users
+
+GET http://localhost:4280/users

@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "packageManager": "pnpm@7.11.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "swa": "npx @azure/static-web-apps-cli start .output/public --api-location .output/server"
+  },
+  "devDependencies": {
+    "@nuxt/kit": "3.0.0-rc.8",
+    "@types/node": "^16.11.49",
+    "defu": "^6.1.0",
+    "nuxt": "3.0.0-rc.8",
+    "http-proxy-middleware": "^3.0.0-beta.0",
+    "ufo": "^0.8.5",
+    "vue": "3.2.37"
+  }
+}
